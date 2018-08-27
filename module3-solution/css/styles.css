@@ -1,0 +1,43 @@
+header{
+	background: grey;
+}
+
+header nav.navbar{
+	padding: 0 0;
+}
+
+li.nav-item{
+	background-color: white;
+	border: 1px solid black;
+}
+
+ul.navbar-nav li:nth-child(3){
+	border-bottom: 1.5px solid black;
+}
+
+ul.navbar-nav li:hover{
+	background-color: #a00;
+}
+
+ul.navbar-nav li.nav-item a.nav-link{
+	color: black;
+}
+
+header button.navbar-toggler{
+	border: 1.5px solid black;
+}
+
+div.container h2{
+	margin-top: 20px;
+}
+
+#chickenpart p,#beefpart p,#sushipart p{
+	background-color: grey;
+	padding: 10px 20px;
+}
+
+#chickenpart h3,#beefpart h3,#sushipart h3{
+	background-color: grey;
+	margin-bottom: 0;
+
+}
