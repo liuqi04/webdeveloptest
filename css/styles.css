@@ -1,0 +1,544 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+	color: #fff;
+	background-color: #61122f;
+	font-size: 16px;
+}
+
+/*HEADER*/
+#header-nav{
+	border-radius:0; 
+	border: 0;
+	background-color: #f6b319;
+}
+
+/*logo image*/
+#logo-img{
+	background: url("../img/restaurant-logo_large.png") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+	padding-top: 20px;
+}
+
+
+.navbar-brand h1{
+	 font-family: 'Kirang Haerang', cursive;
+	 color: #557c3e;
+	 font-size: 1.5em;
+	 text-transform: uppercase;
+	 font-weight: bold;
+	 line-height: 0.75;
+	 text-shadow: 3px 3px 3px #222;
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span{
+	vertical-align: middle;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+#phone{
+	margin-top: 5px;
+}
+
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+	text-decoration: none;
+}
+
+#phone div{
+	color: #557c3e;
+	text-align: right;
+}
+
+.container button.navbar-toggler{
+	border: 1.5px solid #61122f;
+}
+
+div#main-content{
+	margin-top: 15px;
+}
+li.nav-item a.active{
+	background-color: #fff;
+}
+
+/*home page setting*/
+.container .jumbotron{
+	box-shadow: 0px 0px 30px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+div#introduction div#menu,div#introduction div#specials,div#introduction div#map{
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	position: relative;
+	height: 250px;
+}
+
+div#introduction > div:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+div#menu{
+	background: url("../img/menu-tile.jpg") no-repeat;
+	background-position: center;
+}
+
+div#specials{
+	background: url("../img/specials-tile.jpg") no-repeat;
+	background-position: center;
+}
+
+div#menu span,div#specials span,div#map span{
+	position: absolute;
+	bottom: 0;
+	opacity: 0.7;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #000;
+}
+/*end home page setting*/
+
+/*menu-categories setting*/
+div#category-tile{
+	background: url(../img/menu/B/B.jpg) no-repeat;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 0;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	box-sizing: content-box;
+}
+div#menulist > div{
+	margin: 30px 0 20px; 
+}
+
+div#menulist a span{
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.7;
+	font-size: 1.3em;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div#category-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+/*end menu-categories setting*/
+
+/*footer setting*/
+footer.card-footer{
+	margin-top: 50px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+
+
+
+footer #hours,footer #address{
+	font-size: 0.8em;
+	line-height: 2;
+	margin-bottom: 20px;
+}
+
+footer #copyright{
+	font-size: 0.7em;
+}
+
+
+footer #hours span,footer #address span{
+	font-size: 1.3em;
+}
+
+section#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+section#comments{
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+section#comments p:nth-child(2){
+	margin-top: 30px;
+}
+
+section hr{
+	border-top-color: #eee;
+}
+/*end footer setting*/
+
+/*single-menu-category setting*/
+div.container section.row{
+	margin-top: 30px;
+}
+.menu-item-tile{
+	margin-bottom: 25px;
+}
+div.menu-item-tile hr {
+	width: 80%;
+}
+.menu-item-tile .menu-item-price{
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: -15px;
+	
+}
+.menu-item-tile .menu-item-price span{
+	font-size: .6em;
+}
+
+.menu-item-photo{
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+
+.menu-item-photo div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #557c3e;
+	text-align: center;
+}
+.menu-item-description{
+	padding-right: 30px;
+}
+h3.menu-item-title{
+	margin: 0 0 10px;
+}
+.menu-item-details{
+	font-size: .9em;
+	font-style: italic;
+}
+
+/*end single-menu-category setting*/
+
+/*extra large*/
+@media (min-width: 1200px){
+	/*home page*/
+	.jumbotron{
+		background: url("../img/jumbotron_1200.jpg") no-repeat;
+		height: 675px;
+	}
+	/*end home page*/
+}
+
+/*large*/
+@media (min-width: 992px) and (max-width: 1199px){
+	/*home page*/
+	.jumbotron{
+		background: url("../img/jumbotron_992.jpg") no-repeat;
+		height: 558px;
+	}
+	/*end home page*/
+	
+}
+
+/*medium*/
+@media (min-width: 768px) and (max-width: 991px){
+	/*header style set*/
+	#logo-img{
+		background: url(../img/restaurant-logo_medium.png) no-repeat;
+		width: 100px;
+		height: 100px;
+		padding: 5px 5px 5px 0;
+	}
+	div.navbar-brand img{
+		width: 20px;
+		height: 20px;
+	}
+	div.navbar-brand{
+		font-size: 1.1em;
+	}
+	ul#nav-list{
+		font-size: 0.7em;
+	}
+	ul#nav-list span{
+		width: 15px;
+		height: 15px;
+	}
+	/*end header style set*/
+	
+	/*home page*/
+	.jumbotron{
+		background: url("../img/jumbotron_768.jpg") no-repeat;
+		height: 432px;
+	}
+
+	div#introduction div#menu,div#introduction div#specials,div#introduction div#map{
+		height: 200px;
+	}
+	/*end home page*/
+
+}
+
+/*small*/
+@media (min-width: 576px) and (max-width: 767px){
+	/*header style set*/
+	#logo-img{
+		background: url(../img/restaurant-logo_small.png) no-repeat;
+		width: 50px;
+		height: 50px;
+		padding: 5px 5px 5px 0;
+	}
+
+	div.navbar-brand img{
+		width: 20px;
+		height: 20px;
+	}
+	div.navbar-brand{
+		font-size: 1.3em;
+		padding-top: 10px; 
+	}
+	div.navbar-brand p{
+		margin: 7px 0 0 0;
+	}
+
+	ul#nav-list{
+		font-size: 0.7em;
+	}
+	ul#nav-list span{
+		width: 15px;
+		height: 15px;
+	}
+	ul#nav-list a.nav-link{
+		font-size: 1.5em;
+	}
+
+	ul#nav-list span.fa{
+		font-size: 1.1em;
+	}
+	/*end header style set*/
+
+	/*take-out info display*/
+	div#take-out{
+		width: 92%;
+		height: 40px;
+		border: 1.5px solid white;
+		border-radius: 5px;
+		margin-top: 10px;
+		background-color: #f6b319;
+		text-align: center;
+	}
+	
+	div#take-out a{
+		color: #61122f;
+		font-size: 1.35em;
+	}
+
+	div#take-out a:hover{
+		text-decoration: none;
+	}
+
+	div#take-out + div{
+		margin: 5px 0 0 0;
+		padding: 0;
+		text-align: center;
+		color: white;
+		background-color: #61122f;
+		font-size: 0.9em;
+	}
+	/*end take-out info display*/
+
+	/*home page*/
+	.jumbotron{
+		background: url("../img/jumbotron_575.jpg") no-repeat;
+		height: 323px;
+	}
+	/*end home page*/
+	div#introduction div#menu,div#introduction div#specials,div#introduction div#map{
+		height: 200px;
+	}
+
+	div#introduction > div.col-sm-6{
+		width: 360px;
+		margin: 0 auto 20px;
+	}
+	/*footer setting*/
+	footer section{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	footer section:nth-child(3)
+	{
+		margin-bottom: 10px;
+	}
+
+	footer hr{
+		width: 65%;
+	}
+	/*end footer setting*/
+}
+
+/*extra small*/
+@media (max-width: 575px){
+	/*header style set*/
+	div.navbar-brand img{
+		width: 20px;
+		height: 20px;
+	}
+	div.navbar-brand{
+		font-size: 4vw;
+		padding-top: 10px; 
+	}
+	div.navbar-brand p{
+		margin: 7px 0 0 0;
+	}
+	ul#nav-list{
+		font-size: 0.7em;
+	}
+	ul#nav-list span{
+		width: 15px;
+		height: 15px;
+	}
+
+	ul#nav-list a.nav-link{
+		font-size: 1.4em;
+	}
+
+	ul#nav-list span.fa{
+		font-size: 1em;
+	}
+
+	button.navbar-toggler{
+		padding: 2px 5px 2px 5px;
+	}
+	/*end header style set*/
+
+	/*take-out info display*/
+	div#take-out{
+		width: 92%;
+		height: 40px;
+		border: 1.5px solid white;
+		border-radius: 5px;
+		margin-top: 10px;
+		background-color: #f6b319;
+		text-align: center;
+	}
+	
+	div#take-out a{
+		color: #61122f;
+		font-size: 1.35em;
+	}
+
+	div#take-out a:hover{
+		text-decoration: none;
+	}
+
+	div#take-out + div{
+		margin: 5px 0 0 0;
+		padding: 0;
+		text-align: center;
+		color: white;
+		background-color: #61122f;
+		font-size: 0.9em;
+	}
+	/*end take-out info display*/
+
+	/*home page*/
+	.jumbotron{
+		margin-top: 15px;
+		padding: 0;
+	}
+	/*end home page*/
+
+	div#introduction div#menu,div#introduction div#specials,div#introduction div#map{
+		height: 170px;
+	}
+	
+	div#introduction > div{
+		width: 360px;
+		margin: 0 auto 20px;
+	}
+
+	/*footer setting*/
+	footer section{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	footer section:nth-child(3)
+	{
+		margin-bottom: 0px;
+	}
+
+	footer hr{
+		width: 50%;
+	}
+	/*single-category-setting*/
+	.menu-item-photo{
+		margin-right: auto;
+	}
+	div.menu-item-tile div.menu-item-price{
+		text-align: center;
+	}
+	.menu-item-description{
+		text-align: center;
+	}
+	/*end single-category-setting*/
+}
+
+@media (max-width: 450px){
+	.col-xxs-12{
+		position: relative;
+  		width: 100%;
+  		min-height: 1px;
+  		padding-right: 15px;
+  		padding-left: 15px;
+  		-ms-flex: 0 0 100%;
+    	flex: 0 0 100%;
+    	max-width: 100%;
+	}
+}
